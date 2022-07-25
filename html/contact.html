@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="../js/header.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../pics/logo1.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html" class="active">Contact</a></li>
+                <!-- <li><a href="./blog.html">Blog</a></li> -->
+            </ul>
+        </nav>
+        <div class="menue" onclick="addDropdown()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="dropdown open-Dropdown">
+            <div class="leftimes">
+                <div class="logo">
+                    <a href="#">
+                        <img src="../pics/logo1.png" alt="logo">
+                </a>
+                </div>
+            </div>
+            <div class="menue" onclick="addDropdown()">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html" class="active">Contact</a></li>
+                <!-- <li><a href="./blog.html">Blog</a></li> -->
+            </ul>
+        </div>
+    </header>
+    <section class="contact-hero">
+        <div class="wrapper">
+            <!-- <img src="../pics/news-2.jpg" alt=""> -->
+            <div class="hero-text">
+                <h1>Contact Us</h1>
+                <P>A Journey To Good Your Good Health</P>
+            </div>
+        </div>
+    </section>
+    <section class="contact" >
+        <h2>Contact Us
+        </h2>
+        <div class="wrapper">
+            <div class="left">
+                <!-- <img src="./img/developer.svg" alt=""> -->
+                <ul>
+                    <li>
+                        <a href="https://github.com/Tazmah">
+                            <i class="fab fa-github"></i> Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/abdul-muizz-hamzat-a3789a230">
+                            <i class="fab fa-linkedin-in"></i> Linkedin
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Tazm_ah">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <form action="" method="POST">
+                    <div class="input-feed">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="input-feed">
+                        <i class="fas fa-phone"></i>
+                        <input type="number" name="number" placeholder="Your phone Number">
+                    </div>
+                    <div class="input-feed">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="input-feed">
+                        <i class="fab fa-product-hunt"></i>
+                        <input type="text" name="projectType" placeholder="Number Of Bootles Or Bag ">
+                    </div>
+                    <div class="input-feed">
+                        <textarea placeholder="Message / location" cols="20" rows="10" name="msg"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Premuim Waters</h3>
+                <p>Natural water, Fresh Water, mineral water they are working with us. They work with us because we are giving them fresh, safe, pure and healthy water with trust and honesty.</p>
+            </div>
+            <div class="box">
+                <h3>Info</h3>
+              <p>  <a href="../index.html">Home</a></p>
+              <p>  <a href="./about.html">About</a></p>
+               <p> <a href="./contact.html">Contact</a></p>
+               <p> <a href="./service.html">Service</a></p>
+            </div>
+            <div class="box">
+                <h3>Business Hours</h3>
+                <p>Monday-Friday: 9am to 5pm</p>
+                <p>Saturday: 10am to 4pm</p>
+                <p>Sunday: Closed</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="box">
+                <h3>Contact Us</h3>
+                <p>3065 Upton Avenue, Guilford</p>
+                <p>Maine 04443 USA</p>
+                <p>Call Us +1 207-876-1059</p>
+                <p>E-mail: info@example.com</p>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <div class="social">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <p>&#169;copyright 2022 Premuim_Waters.All right Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

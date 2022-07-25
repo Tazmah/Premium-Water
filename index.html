@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water | Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <div class="left">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./pics/logo1.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="./html/about.html">About</a></li>
+                <li><a href="./html/services">Services</a></li>
+                <li><a href="./html/contact.html">Contact</a></li>
+                <!-- <li><a href="./html/blog">Blog</a></li> -->
+            </ul>
+        </nav>
+        <div class="menue" onclick="addDropdown()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="dropdown open-Dropdown">
+            <div class="leftimes">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./pics/logo1.png" alt="logo">
+                </a>
+                </div>
+            </div>
+            <div class="menue" onclick="addDropdown()">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="./html/about.html">About</a></li>
+                <li><a href="./html/services">Services</a></li>
+                <li><a href="./html/contact.html">Contact</a></li>
+                <!-- <li><a href="./html/blog">Blog</a></li> -->
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="wrapper">
+            <div class="hero-text">
+                <h1>Pure & Healthy Drinking Water</h1>
+                <p>
+                    A journey to good health and wealth with health water for you and your family
+                </p>
+                <a href="./html/contact.html">
+                    <button class="btn">Contact Us</button>
+                </a>
+            </div>
+            <div class="hero-img">
+                <img src="./pics/water-glass-1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <h2>A Tusted Company In Bottle <br> Water Industry</h2>
+        <hr>
+        <div class="wrapper">
+            <div class="card">
+                <figure>
+                    <img src="./pics/undraw_healthy_options_re_lf9l.svg" alt="">
+                    <figcaption>
+                        <h3>Maximum Purity</h3>
+                        <p>
+                            For Your health benefit, we have made our water free from impurity and making it good for consumption.
+                        </p>
+                        <p>
+                            After Passing through the necessary stages of filtration, we are confident to help you grow stronger with our maximum purity water    
+                        </p>
+                        
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="./pics/undraw_nature_m5ll.svg" alt="">
+                    <figcaption>
+                        <h3>Nature Friendly</h3>
+                        <p>
+                            Our Love for you is the same love we have for the earth, to make it a better place for you, we take the necessary precautions by taking our waste product for recycling 
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <!-- <img src="./pics/nature.jpg" alt=""> -->
+                    <img src="./pics/undraw_environment_iaus.svg" alt="">
+                    <figcaption>
+                        <h3>Calculated Quantity of Chlorine </h3>
+                        <p>
+                            With the help of our research team, we discovered that taking in uncalculated amount of chlorinated water is harmful to the body.
+                        </p>
+                        <p>
+                           So the U.S. Environmental Protection Agency (EPA) limits the amount of chlorine in drinking water to levels that are safe for human consumption
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+           
+        </div>
+    </section>
+    <section class="deliver">
+        <h2>Bottles We Deliver</h2>
+        <div class="wrapper">
+            <div class="show">
+                <div class="card">
+                    <figure>
+                        <img src="./pics/video-3.jpg" alt="">
+                        <figcaption>
+                            <h3>The bottle</h3>
+                            <p>
+                                
+                                Free Delivery 
+                            </p>
+                            <h3>#1200 <span>Per bottle</span></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="show">
+                <div class="card">
+                    <figure>
+                        <!-- <img src="./pics/doctor1.png" alt=""> -->
+                        <img src="./pics/bag.jpg" alt="">
+                        <figcaption>
+                            <h3>Bag Of Water</h3>
+                            <p>
+                                Free Delivery
+                            </p>
+                            <h3>#1200 <span>Per Bag</span></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="customer">
+        <div class="title">
+          <h2>Customers Review</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="wrapper">
+            <article class="review">
+                <div class="img-container">
+                  <img src="./pics/dummy1.png" alt="" id="person-img" />
+                </div>
+                <h4 id="author">sara jones</h4>
+                <p id="job">Food Vendor</p>
+                <p id="info">
+                  Whenever I deliver food to my Customers, they are always happy. I dont know why but I make more sales.
+                </p>
+                <div class="button-container">
+                  <button class="prev-btn btn">
+                    <i class="fas fa-chevron-left"></i>
+                  </button>
+                  <button class="next-btn btn">
+                    <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+        </div>
+        </article>
+      </section>
+      <!-- <section class="blog-post">
+        <h2>Blog Posts</h2>
+        <div class="wrapper">
+            <div class="card">
+                <div class="img">
+                    <img src="./pics/news-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Why You Should Always be Hydrated</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, fuga. Repudiandae itaque veritatis.....</p>
+                </div>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./pics/news-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Why You Should Always be Hydrated</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, fuga. Repudiandae itaque veritatis.....</p>
+                </div>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+      </section> -->
+      <footer>
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Premuim Waters</h3>
+                <p>Natural water, Fresh Water, mineral water they are working with us. They work with us because we are giving them fresh, safe, pure and healthy water with trust and honesty.</p>
+            </div>
+            <div class="box">
+                <h3>Info</h3>
+              <p>  <a href="./index.html">Home</a></p>
+              <p>  <a href="./html/about.html">About</a></p>
+               <p> <a href="./html/contact.html">Contact</a></p>
+               <p> <a href="./html/service.html">Service</a></p>
+            </div>
+            <div class="box">
+                <h3>Business Hours</h3>
+                <p>Monday-Friday: 9am to 5pm</p>
+                <p>Saturday: 10am to 4pm</p>
+                <p>Sunday: Closed</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="box">
+                <h3>Contact Us</h3>
+                <p>3065 Upton Avenue, Guilford</p>
+                <p>Maine 04443 USA</p>
+                <p>Call Us +1 207-876-1059</p>
+                <p>E-mail: info@example.com</p>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <div class="social">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <p>&#169;copyright 2022 Premuim_Waters.All right Reserved.</p>
+        </div>
+    </footer>
+    <script src="./js/header.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

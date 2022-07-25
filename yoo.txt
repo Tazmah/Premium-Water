@@ -1,0 +1,45 @@
+<section class="help">
+        <h1>Helping to improve</h1>
+        <div class="wrapper">
+            <!-- <div class="card">
+                <figure>
+                    <!-- <img src="../pics/cta-1.png" alt="contact us"> -->
+                    <img src="../pics/doctor1.png" alt="">
+                    <figcaption>
+                        <h3>Good Health</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, molestiae itaque eos neque sed nesciunt ad dolor quos explicabo at. Libero minus molestiae accusamus modi, fuga quam! Non, tenetur porro?</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <!-- <img src="../pics/cta-1.png" alt="contact us"> -->
+                    <img src="../pics/family.jpg" alt="">
+                    <figcaption>
+                        <h3>Boost Imune</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, molestiae itaque eos neque sed nesciunt ad dolor quos explicabo at. Libero minus molestiae accusamus modi, fuga quam! Non, tenetur porro?</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <!-- <img src="../pics/cta-1.png" alt="contact us"> -->
+                    <img src="../pics/florenet-bottle.webp" alt="">
+                    <figcaption>
+                        <h3>Good Health</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, molestiae itaque eos neque sed nesciunt ad dolor quos explicabo at. Libero minus molestiae accusamus modi, fuga quam! Non, tenetur porro?</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <!-- <img src="../pics/cta-1.png" alt="contact us"> -->
+                    <img src="../pics/doctor1.png" alt="">
+                    <figcaption>
+                        <h3>Good Health</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, molestiae itaque eos neque sed nesciunt ad dolor quos explicabo at. Libero minus molestiae accusamus modi, fuga quam! Non, tenetur porro?</p>
+                    </figcaption>
+                </figure>
+            </div> -->
+        </div>
+    </section>

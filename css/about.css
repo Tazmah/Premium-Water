@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:  #79FE0C;
+    --secondary-color: #2f4c7a;
+    --btn-color: #79FE0C;
+    --btnhover-color:#fff;
+    --general-padding: 20px 10%;
+    --medium-padding: 10px 5%;
+    --linear: linear-gradient(180deg, var(--btn-color) 0%, var(--secondary-color) 100%);
+    --linear-btn: linear-gradient(163deg, var(--btn-color) 50%, var(--secondary-color) 50%);
+    --linear-btn-hover:linear-gradient(168deg, var(--secondary-color) 50%, var(--btn-color) 50%);
+    --cool: #bfcbfd;
+    --linear-bg:linear-gradient(168deg, var(--cool) 50%, var(--btnhover-color) 50%);
+    --linear-opp-bg:linear-gradient(168deg, var(--btnhover-color) 50%,var(--cool) 50%);
+    --mobile-padding:5px 2%;
+}
+body{
+    transition: all 1s ease;
+    font-family: "Open Sans", sans-serif;
+}
+section.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section.hero div.wrapper{
+    /* position: absolute; */
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+section.hero div.wrapper img{
+    width: 100%;
+    height: 100%;
+}
+section.hero div.wrapper div.hero-text p{
+    font-size: 3vmax;
+    color: var(--cool);
+}
+section.hero div.wrapper div.hero-text h1{
+    font-size: 5vmax;
+    color: var(--secondary-color);
+    text-shadow: 1px 1px 1px var(--cool);
+}
+section.hero div.wrapper div.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+section.deliver{ 
+    width: 100%;
+    background: var(--linear-bg);
+    /* position: relative; */
+}
+section.deliver h2{
+    font-size: 30px;
+}
+section.deliver div.wrapper{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--general-padding);
+    /* background: url('../pics/upside-wave.svg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section.deliver div.wrapper div.show:hover{
+    background-color: var(--secondary-color);
+}
+section.deliver div.wrapper div.show div.card:hover{
+    background-color: var(--cool);
+    color: var(--secondary-color);
+}
+section.deliver div.wrapper div.show{
+    width: 24%;
+    border-radius: 25px;
+    height: 500px;
+    /* margin-top: 100px ; */
+    background: var(--cool);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+}
+section.deliver div.wrapper div.show div.card{
+    width: 95%;
+    /* position: relative; */
+    background: var(--cool);
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px var(--secondary-color);
+    transition: all 1s;
+    color: var(--secondary-color);
+}
+section.deliver div.wrapper div.show div.card figure{
+    width: 100%;
+    height: 100%;
+}
+section.deliver div.wrapper div.show div.card figure div.fig-img{
+    width: 100%;
+    height: 40%;
+}
+section.deliver div.wrapper div.show div.card figure div.fig-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+section.deliver h2{
+    padding: 10px;
+    text-align: center;
+}
+section.deliver div.wrapper div.show div.card figure figcaption p{
+    margin: 10px 0;
+}
+section.deliver div.wrapper div.show div.card figure figcaption{
+    padding: 10px 15px;
+    /* position: absolute; */
+    bottom: 2%;
+}
+section.bod{
+    width: 100%;
+    text-align: center;
+    background: var(--linear-btn-hover); 
+}
+section.bod div.wrapper{
+    width: 100%;
+    padding: var(--general-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+    margin-top: 25px;
+}
+section.bod div.wrapper div.card{
+    width: 40%;
+    height: 47%;
+    background: transparent;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+section.bod div.wrapper div.card figure{
+    width: 100%;
+    height: 80%;
+}
+section.bod div.wrapper div.card figure div.fig-img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+section.bod div.wrapper div.card figure div.fig-img img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -5px;
+}
+section.bod div.wrapper div.card figure figcaption{
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: var(--secondary-color);
+}
+
+section.bod div.wrapper div.card figure figcaption ul li a{
+    color: var(--cool);
+}
+section.bod div.wrapper div.card figure figcaption ul li{
+    font-size: 25px;
+}
+section.bod div.wrapper div.card figure figcaption ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 25px;
+}
+footer{
+    text-align: center;
+    background-color: var(--cool);
+    color: var(--secondary-color);
+}
+footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    align-items: center;
+    gap: 20px;
+    /* padding: var(--general-padding); */
+    text-align: left;
+}
+footer .box-container .box p{
+    width: 70%;
+}
+
+footer .box-container .box h3 {
+    display: block;
+    padding: 1rem 0;
+}
+
+footer .box-container .box p {
+    display: block;
+    padding: .5rem 0;
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width:1007px) {
+    section.deliver div.wrapper{
+        padding: var(--medium-padding);
+    }
+    section.bod div.wrapper{
+        padding: var(--medium-padding);
+    }
+    section.bod div.wrapper{
+        padding: var(--medium-padding);
+    }
+    section.deliver div.wrapper div.show{
+        width: 45%;
+        height: 350px;
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width:719px) {
+    section.deliver div.wrapper div.show{
+        height: 400px;
+    }
+    
+}
+@media screen and (max-width:611px) {
+    section.deliver div.wrapper div.show{
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:750px) {
+    section.bod div.wrapper{
+        flex-direction: column;
+    }
+    section.bod div.wrapper div.card{
+        width: 80%;
+    }
+}
+@media screen and (max-width:460px) {
+    section.bod div.wrapper{
+        padding: var(--mobile-padding);
+    }
+    section.deliver div.wrapper{
+        padding: var(--mobile-padding);
+
+    }
+    footer{
+        padding: var(--mobile-padding);
+    }
+}
+@media screen and (max-width:979px) {
+    footer{
+        padding: var(--medium-padding);
+    }
+    section.offer div.box-container {
+        padding: var(--medium-padding);
+    }
+
+    section.provide div.wrapper {
+        padding: var(--medium-padding);
+    }
+}
